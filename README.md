@@ -35,7 +35,7 @@ View the Machine Learning Model [Here]
 
 In this machine learning analysis, we look to explore the relationship of
 
-**ML Goal:** Explore the relationship of 
+**ML Goal:** Explore the relationship of COVID Vaccinations and Population Density’s Impact on Infection Rates
 
 **Implications:**
 
