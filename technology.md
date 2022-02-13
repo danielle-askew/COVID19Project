@@ -1,6 +1,6 @@
 # Technologies Used
 ## Data Cleaning and Analysis
-In Jupyter Notebook we will use Postgres and Pandas/Python to clean the data and perform an exploratory analysis. We will also utilize tools in Excel for the same. 
+In Jupyter Notebook we will use Postgres, Pandas, and Python to clean the data and perform an exploratory analysis. We will also utilize tools in Excel for the same. 
 
 ## Database Storage
 Postgres and Cloud Storage (AWS) are the databases we intend to use. 
