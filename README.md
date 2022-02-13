@@ -1,5 +1,5 @@
 
-# ProjectRepo
+# COVID19
 # Topic: COVID19 Analysis at County Level
 
 ## Communication Protocols
@@ -43,10 +43,9 @@ In this machine learning analysis, we look to explore the relationship of
 
 **Implications:**
 
-**Demographic Data Explored:**
+**Demographic Data Explored by County in Colorado:**
 * Age
 * Vaccination
-* Outbreaks
 * Hospitializations
 * Death Rates
 * And more...
