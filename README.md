@@ -23,6 +23,8 @@
 * The database is then connected to the Machine Learning model that has been created using 'Python', 'Pandas', and `Jupyter Notebook`
 * The presentation will be displayed via ``, as well as, an interactive webpage hosted by `GitHub Pages` using `HTML`, `CSS` and `Javascript`.
 
+## Visualization & Dashboard
+
 ## Database ##
 
 Our collective database includes __. The database was created in PostgreSQL (PGadmin), and connected using AWS.
