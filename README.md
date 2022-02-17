@@ -81,9 +81,6 @@ The dataset is split into training and testing sets. The model uses the training
 * F1 Score - Tradeoff Between Precision and Sensitivity:
 
 
-## Visualization & Dashboard
-
-
 ## Resources
 
 
