@@ -43,18 +43,12 @@ In this machine learning analysis, we look to explore the relationship of
 
 **Implications:**
 
-**Demographic Data Explored by County in Colorado:**
-* Age
-* Vaccination
-* Hospitializations
-* Death Rates
-* And more...
 
-### *Preliminary Data Preprocessing* 
+## Preliminary Data Preprocessing ##
 
 
 
-### *Preliminary Feature Engineering, Feature Selection, and Decision-Making Process*
+## *Preliminary Feature Engineering, Feature Selection, and Decision-Making Process* ##
 
 **Target:** 
 
@@ -72,7 +66,7 @@ The dataset is split into training and testing sets. The model uses the training
 
 
 
-### *Model Results*
+## *Model Results* ##
 **Accuracy:** 
 
 
