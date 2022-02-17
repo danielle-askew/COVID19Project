@@ -5,7 +5,7 @@
 ## Communication Protocols
 * The Team will coordinate using a combination of Slack, Zoom Meetings during Monday and Wednesday classes, and additional meetings as-needed. We will use a Google Document for tracking meeting notes.
 
-## Process
+## Process ##
 
 **Data Collection**
 
@@ -15,7 +15,7 @@
 **Analysis, Presentation, and Visualization**
 
 
-## Technology
+## Technology 
 
 * Data is collected and preprocessed in `Jupyter Notebook` using `Pandas` and `Python`.
 
@@ -23,7 +23,7 @@
 * The database is then connected to the Machine Learning model that has been created using 'Python', 'Pandas', and `Jupyter Notebook`
 * The presentation will be displayed via ``, as well as, an interactive webpage hosted by `GitHub Pages` using `HTML`, `CSS` and `Javascript`.
 
-## Database
+## Database ##
 
 Our collective database includes __. The database was created in PostgreSQL (PGadmin), and connected using AWS.
 * Preprocessed data is connected and imported into `Postgres` using `pgAdmin`.
@@ -33,7 +33,7 @@ Our collective database includes __. The database was created in PostgreSQL (PGa
 Additionally, the database meets all of the criteria requested for this unit's deliverables. This includes:
 
 
-## Machine Learning Model
+## Machine Learning Model ##
 
 View the Machine Learning Model [Here]
 
@@ -44,11 +44,11 @@ In this machine learning analysis, we look to explore the relationship of
 **Implications:**
 
 
-## Preliminary Data Preprocessing ##
+### Preliminary Data Preprocessing 
 
 
 
-## *Preliminary Feature Engineering, Feature Selection, and Decision-Making Process* ##
+### Preliminary Feature Engineering, Feature Selection, and Decision-Making Process
 
 **Target:** 
 
@@ -66,20 +66,20 @@ The dataset is split into training and testing sets. The model uses the training
 
 
 
-## *Model Results* ##
-**Accuracy:** 
+### *Model Results* 
+* Accuracy:
 
 
-**Precision:**
+* Precision:
 
 
-**Sensitivty/Recall:**
+* Sensitivty/Recall:
 
 
-**F1 Score - Tradeoff Between Precision and Sensitivity:**
+* F1 Score - Tradeoff Between Precision and Sensitivity:
 
 
-## Visualization
+## Visualization & Dashboard
 
 
 ## Resources
