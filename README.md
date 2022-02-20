@@ -92,7 +92,3 @@ Random Forest Drawbacks: The main limitation of random forest is that a large nu
 * Jordan Brickman - X Role
 * Adam Magyar - Circle Role
 * Danielle Askew - Square Role
-
-
-
-
