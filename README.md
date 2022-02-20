@@ -66,7 +66,7 @@ Because we are relating many variables, we will utilize both a Supervised Decisi
 - Decision Tree Benefits: One of the most interpretable models, as they provide a clear representation of how the model works. Easy to classify or label objects by asking a series of questions designed to zero in on the true answer.
 Decision Tree Drawbacks: Can become very complex and very deep, depending on how many questions have to be answered. Deep and complex trees tend to overfit to the data and do not generalize well.
 
--Random Forest Benefits: Instead of having a single, complex tree like the ones created by decision trees, a random forest algorithm will sample the data and build several smaller, simpler decision trees. Each tree is simpler because it is built from a random subset of features. Random forest algorithms are beneficial because they are robust against overfitting as all of those weak learners are trained on different pieces of the data, can be used to rank the importance of input variables in a natural way, can handle thousands of input variables without variable deletion, are robust to outliers and nonlinear data and run efficiently on large datasets.
+- Random Forest Benefits: Instead of having a single, complex tree like the ones created by decision trees, a random forest algorithm will sample the data and build several smaller, simpler decision trees. Each tree is simpler because it is built from a random subset of features. Random forest algorithms are beneficial because they are robust against overfitting as all of those weak learners are trained on different pieces of the data, can be used to rank the importance of input variables in a natural way, can handle thousands of input variables without variable deletion, are robust to outliers and nonlinear data and run efficiently on large datasets.
 Random Forest Drawbacks: The main limitation of random forest is that a large number of trees can make the algorithm too slow and ineffective for real-time predictions. In general, these algorithms are fast to train, but quite slow to create predictions once they are trained.
 
 ### *Model Results* 
@@ -88,10 +88,10 @@ Random Forest Drawbacks: The main limitation of random forest is that a large nu
 
 ## Project Team Members
 
-* Mike Tuckerson - 
-* Jordan Brickman - 
-* Adam Magyar - 
-* Danielle Askew -
+* Mike Tuckerson - Triangle Role
+* Jordan Brickman - X Role
+* Adam Magyar - Circle Role
+* Danielle Askew - Square Role
 
 
 
