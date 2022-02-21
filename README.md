@@ -25,6 +25,8 @@
 
 ## Visualization & Dashboard
 
+* Dashboard [Storyboard](https://docs.google.com/presentation/d/1dCde1OCeyl3IB1D-QORw7h_S3HN5e1TztJYZq71IYIo/edit?usp=sharing) & blueprint. 
+
 ## Database ##
 
 Our collective database includes __. The database was created in PostgreSQL (PGadmin), and connected using AWS.
