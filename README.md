@@ -1,21 +1,14 @@
+![COVID](Resources/COVID_19.jpg)
 
-# COVID19
-![COVID](Resources/COVID_19.jpeg)
-
-# Topic: COVID19 Analysis at County Level
+# Topic: COVID19 Analysis at the Colorado County Level
 
 ## Communication Protocols
 * The Team will coordinate using a combination of Slack, Zoom Meetings during Monday and Wednesday classes, and additional meetings as-needed. We will use a Google Document for tracking meeting notes.
-
-## Process ##
-
-**Data Collection**
 
 **Preprocessing and Machine Learning**
 
 * This data will be consolidated into a database and the variables will be applied to a Machine Learning model to predict whether a specific county is likely to have a COVID Outbreak that exceeds the State or National Average. 
 **Analysis, Presentation, and Visualization**
-
 
 ## Technology 
 
@@ -45,12 +38,7 @@ In this machine learning analysis, we look to explore the relationship of vaccin
 
 **ML Goal:** Explore the relationship of COVID Vaccinations and Population Density’s Impact on Infection Rates
 
-**Implications:**
-
-
-### Preliminary Data Preprocessing 
-
-
+**Implications:**  We hope that by finding key variables that contribute to whether an area is likely or unlikely to experience an elevated COVID 19 infection rate by comparing  demographics to geographic data such as average percentage of completed vacctions and two week outbreaks that we can define infection trends ahead of time.
 
 ### Preliminary Feature Engineering, Feature Selection, and Decision-Making Process
 
@@ -80,16 +68,11 @@ Our Supervised Machine Learning dataset contained binary outcomes, the accuracy 
 
 * F1 Score - Tradeoff Between Precision and Sensitivity: The F1 score is a pronounced imbalance between sensitivity and precision. For our models below, both models achieved a high F1 Score of .67.
 
-![Confusion Matrix](Resources/cm.jpeg)
-
-
-## Resources
-
+![Confusion Matrix](Resources/CM.jpg)
 
 
 ## Project Team Members
-
-* Mike Tuckerson - Triangle Role
-* Jordan Brickman - X Role
-* Adam Magyar - Circle Role
-* Danielle Askew - Square Role
+* Mike Tuckerson 
+* Jordan Brickman
+* Adam Magyar
+* Danielle Askew 
