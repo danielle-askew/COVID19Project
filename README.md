@@ -1,5 +1,7 @@
 
 # COVID19
+![COVID](Resources/COVID_19.jpeg)
+
 # Topic: COVID19 Analysis at County Level
 
 ## Communication Protocols
@@ -56,9 +58,6 @@ In this machine learning analysis, we look to explore the relationship of vaccin
 
 **Features:** Demographic Data such as vaccination and outbreaks. 
 
-**Feature Engineering:**
-
-
 ### *Training and Testing Sets*
 The dataset is split into training and testing sets. The model uses the training dataset to learn from it. It then uses the testing dataset to assess its performance. If we were to use the entire dataset to train the model, we wouldn't know how well the model will perform when it encounters unseen data. We use the SciKit Learn Library to split, train, and test the data.
 
@@ -72,16 +71,16 @@ Decision Tree Drawbacks: Can become very complex and very deep, depending on how
 Random Forest Drawbacks: The main limitation of random forest is that a large number of trees can make the algorithm too slow and ineffective for real-time predictions. In general, these algorithms are fast to train, but quite slow to create predictions once they are trained.
 
 ### *Model Results* 
-* Accuracy:
+* Accuracy: Our models showed different levels of accuracy.in our undersampling piece we recieved an accuracy of 78.5% and 81.25% in the Logistic Regression.  
+Our Supervised Machine Learning dataset contained binary outcomes, the accuracy of the predictions can be further analyzed by viewing the Confusion Matrices for the two models.
 
+* Precision: Precision, also known as positive predictive value (PPV), is a measure of how likely that a Predicted Positive is a True Positive. Precision is obtained by dividing the number of true positives (TP) by the number of all positives (i.e., the sum of true positives and false positives, or TP + FP). For our models below, both the Decision Tree and Random Forest achieved a Precision score of .67. This means that out of 100 predicted positives, 67 were True Positives.
 
-* Precision:
+* Sensitivty/Recall: We can assess a model's performance is with sensitivity/recall. Sensitivity is a measure of how many True Positives were correctly predicted. For our models, both the Decision Tree and Random Forest achieved a Recall Score of .67. 
 
+* F1 Score - Tradeoff Between Precision and Sensitivity: The F1 score is a pronounced imbalance between sensitivity and precision. For our models below, both models achieved a high F1 Score of .67.
 
-* Sensitivty/Recall:
-
-
-* F1 Score - Tradeoff Between Precision and Sensitivity:
+![Confusion Matrix](Resources/cm.jpeg)
 
 
 ## Resources
