@@ -16,7 +16,7 @@
 
 * Preprocessed data is connected and imported into `Postgres` using `pgAdmin` and AWS.
 * The database is then connected to the Machine Learning model that has been created using 'Python', 'Pandas', and `Jupyter Notebook`
-* The presentation will be displayed via ``, as well as, an interactive webpage hosted by `GitHub Pages` using `HTML`, `CSS` and `Javascript`.
+* The presentation will be displayed via `Google Slides`, as well as, an interactive webpage hosted by `Tableau Public` using `HTML`, `CSS` and `Javascript`.
 
 ## Visualization & Dashboard
 
