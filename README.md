@@ -21,7 +21,7 @@
 ## Visualization & Dashboard
 
 * Dashboard [Storyboard](https://docs.google.com/presentation/d/1dCde1OCeyl3IB1D-QORw7h_S3HN5e1TztJYZq71IYIo/edit?usp=sharing) & blueprint. 
-* Link [Dashboard](https://public.tableau.com/shared/H3Q25244H?:display_count=n&:origin=viz_share_link).
+* [Dashboard](https://public.tableau.com/shared/H3Q25244H?:display_count=n&:origin=viz_share_link).
 
 ## Database ##
 
