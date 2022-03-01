@@ -30,14 +30,14 @@ Our collective database includes __. The database was created in PostgreSQL (PGa
 * The database is then connected to the Machine Learning model that has been created using `Jupyter Notebook`
 * The presentation will be displayed via ``, as well as, an interactive webpage hosted by `GitHub Pages` using `HTML`, `CSS` and `Javascript`
 
-Additionally, the database meets all of the criteria requested for this unit's deliverables. This includes:
+Additionally, the database meets all of the criteria requested for this unit's deliverables. 
 
 
 ## Machine Learning Model ##
 
 In this machine learning analysis, we look to explore the relationship of vaccination rate and poplulation density by County in Colorado.
 
-**ML Goal:** Explore the relationship of COVID Vaccinations and Population Density’s Impact on Infection Rates
+**ML Goal:** Explore the relationship of COVID Vaccinations and Population Density’s Impact on Infection Rates.
 
 **Implications:**  We hope that by finding key variables that contribute to whether an area is likely or unlikely to experience an elevated COVID 19 infection rate by comparing  demographics to geographic data such as average percentage of completed vacctions and two week outbreaks that we can define infection trends ahead of time.
 
@@ -60,7 +60,7 @@ Decision Tree Drawbacks: Can become very complex and very deep, depending on how
 Random Forest Drawbacks: The main limitation of random forest is that a large number of trees can make the algorithm too slow and ineffective for real-time predictions. In general, these algorithms are fast to train, but quite slow to create predictions once they are trained.
 
 ### *Model Results* 
-* Accuracy: Our models showed different levels of accuracy.in our undersampling piece we recieved an accuracy of 78.5% and 81.25% in the Logistic Regression.  
+* Accuracy: Our models showed different levels of accuracy in our undersampling piece we recieved an accuracy of 78.5% and 81.25% in the Logistic Regression.  
 Our Supervised Machine Learning dataset contained binary outcomes, the accuracy of the predictions can be further analyzed by viewing the Confusion Matrices for the two models.
 
 * Precision: Precision, also known as positive predictive value (PPV), is a measure of how likely that a Predicted Positive is a True Positive. Precision is obtained by dividing the number of true positives (TP) by the number of all positives (i.e., the sum of true positives and false positives, or TP + FP). For our models below, both the Decision Tree and Random Forest achieved a Precision score of .67. This means that out of 100 predicted positives, 67 were True Positives.
