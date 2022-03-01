@@ -1,19 +1,14 @@
+![COVID](Resources/COVID_19.jpg)
 
-# COVID19
-# Topic: COVID19 Analysis at County Level
+# Topic: COVID19 Analysis at the Colorado County Level
 
 ## Communication Protocols
 * The Team will coordinate using a combination of Slack, Zoom Meetings during Monday and Wednesday classes, and additional meetings as-needed. We will use a Google Document for tracking meeting notes.
-
-## Process ##
-
-**Data Collection**
 
 **Preprocessing and Machine Learning**
 
 * This data will be consolidated into a database and the variables will be applied to a Machine Learning model to predict whether a specific county is likely to have a COVID Outbreak that exceeds the State or National Average. 
 **Analysis, Presentation, and Visualization**
-
 
 ## Technology 
 
@@ -21,9 +16,12 @@
 
 * Preprocessed data is connected and imported into `Postgres` using `pgAdmin` and AWS.
 * The database is then connected to the Machine Learning model that has been created using 'Python', 'Pandas', and `Jupyter Notebook`
-* The presentation will be displayed via ``, as well as, an interactive webpage hosted by `GitHub Pages` using `HTML`, `CSS` and `Javascript`.
+* The presentation will be displayed via `Google Slides`, as well as, an interactive webpage hosted by `Tableau Public` using `HTML`, `CSS` and `Javascript`.
 
 ## Visualization & Dashboard
+
+* Dashboard [Storyboard](https://docs.google.com/presentation/d/1dCde1OCeyl3IB1D-QORw7h_S3HN5e1TztJYZq71IYIo/edit?usp=sharing) & blueprint. 
+* [Dashboard](https://public.tableau.com/shared/H3Q25244H?:display_count=n&:origin=viz_share_link).
 
 ## Database ##
 
@@ -41,21 +39,13 @@ In this machine learning analysis, we look to explore the relationship of vaccin
 
 **ML Goal:** Explore the relationship of COVID Vaccinations and Population Density’s Impact on Infection Rates
 
-**Implications:**
-
-
-### Preliminary Data Preprocessing 
-
-
+**Implications:**  We hope that by finding key variables that contribute to whether an area is likely or unlikely to experience an elevated COVID 19 infection rate by comparing  demographics to geographic data such as average percentage of completed vacctions and two week outbreaks that we can define infection trends ahead of time.
 
 ### Preliminary Feature Engineering, Feature Selection, and Decision-Making Process
 
 **Target:** Whether an area is likely to or unlikely to experience an elevated COVID infection rate. 
 
 **Features:** Demographic Data such as vaccination and outbreaks. 
-
-**Feature Engineering:**
-
 
 ### *Training and Testing Sets*
 The dataset is split into training and testing sets. The model uses the training dataset to learn from it. It then uses the testing dataset to assess its performance. If we were to use the entire dataset to train the model, we wouldn't know how well the model will perform when it encounters unseen data. We use the SciKit Learn Library to split, train, and test the data.
@@ -70,25 +60,20 @@ Decision Tree Drawbacks: Can become very complex and very deep, depending on how
 Random Forest Drawbacks: The main limitation of random forest is that a large number of trees can make the algorithm too slow and ineffective for real-time predictions. In general, these algorithms are fast to train, but quite slow to create predictions once they are trained.
 
 ### *Model Results* 
-* Accuracy:
+* Accuracy: Our models showed different levels of accuracy.in our undersampling piece we recieved an accuracy of 78.5% and 81.25% in the Logistic Regression.  
+Our Supervised Machine Learning dataset contained binary outcomes, the accuracy of the predictions can be further analyzed by viewing the Confusion Matrices for the two models.
 
+* Precision: Precision, also known as positive predictive value (PPV), is a measure of how likely that a Predicted Positive is a True Positive. Precision is obtained by dividing the number of true positives (TP) by the number of all positives (i.e., the sum of true positives and false positives, or TP + FP). For our models below, both the Decision Tree and Random Forest achieved a Precision score of .67. This means that out of 100 predicted positives, 67 were True Positives.
 
-* Precision:
+* Sensitivty/Recall: We can assess a model's performance is with sensitivity/recall. Sensitivity is a measure of how many True Positives were correctly predicted. For our models, both the Decision Tree and Random Forest achieved a Recall Score of .67. 
 
+* F1 Score - Tradeoff Between Precision and Sensitivity: The F1 score is a pronounced imbalance between sensitivity and precision. For our models below, both models achieved a high F1 Score of .67.
 
-* Sensitivty/Recall:
-
-
-* F1 Score - Tradeoff Between Precision and Sensitivity:
-
-
-## Resources
-
+![Confusion Matrix](Resources/CM.jpg)
 
 
 ## Project Team Members
-
-* Mike Tuckerson - Triangle Role
-* Jordan Brickman - X Role
-* Adam Magyar - Circle Role
-* Danielle Askew - Square Role
+* Mike Tuckerson 
+* Jordan Brickman
+* Adam Magyar
+* Danielle Askew 
