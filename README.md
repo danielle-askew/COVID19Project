@@ -2,6 +2,9 @@
 
 # Topic: COVID19 Analysis at the Colorado County Level
 
+## Summary
+Our project used machine learning to determine if a Colorado county was likely to have a higher Covid-19 infection rate than the state average. Using the Decision Tree and Random Forest Algorithms, our model included features such as vaccination rates and social vulnarability index scores. While our models both obtained an encouraging accuracy score of 69%, we believe additional data points would be necessary to make a more robust model.
+
 ## Communication Protocols
 * The Team will coordinate using a combination of Slack, Zoom Meetings during Monday and Wednesday classes, and additional meetings as-needed. We will use a Google Document for tracking meeting notes.
 
@@ -23,12 +26,15 @@
 * Dashboard [Storyboard](https://docs.google.com/presentation/d/1dCde1OCeyl3IB1D-QORw7h_S3HN5e1TztJYZq71IYIo/edit?usp=sharing) & blueprint. 
 * [Dashboard](https://public.tableau.com/shared/H3Q25244H?:display_count=n&:origin=viz_share_link).
 
+## Presentation 
+* [Presentation Link](https://docs.google.com/presentation/d/1flTETI3e6vmfVjXl6Ik4qF_KJwdSl6qDVQkAI8v8ZCQ/edit?usp=sharing).
+
 ## Database ##
 
-Our collective database includes __. The database was created in PostgreSQL (PGadmin), and connected using AWS.
+Our collective database was created in PostgreSQL (PGadmin), and connected using AWS.
 * Preprocessed data is connected and imported into `Postgres` using `pgAdmin`.
 * The database is then connected to the Machine Learning model that has been created using `Jupyter Notebook`
-* The presentation will be displayed via ``, as well as, an interactive webpage hosted by `GitHub Pages` using `HTML`, `CSS` and `Javascript`
+* The presentation will be displayed via `Google Slides`, as well as, an interactive webpage hosted by `Tableau Public` using `HTML`, `CSS` and `Javascript`
 
 Additionally, the database meets all of the criteria requested for this unit's deliverables. 
 
