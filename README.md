@@ -2,6 +2,9 @@
 
 # Topic: COVID19 Analysis at the Colorado County Level
 
+## Summary
+Our project used machine learning to determine if a Colorado county was likely to have a higher Covid-19 infection rate than the state average. Using the Decision Tree and Random Forest Algorithms, our model included features such as vaccination rates and social vulnarability index scores. While our models both obtained an encouraging accuracy score of 69%, we believe additional data points would be necessary to make a more robust model.
+
 ## Communication Protocols
 * The Team will coordinate using a combination of Slack, Zoom Meetings during Monday and Wednesday classes, and additional meetings as-needed. We will use a Google Document for tracking meeting notes.
 
@@ -23,21 +26,24 @@
 * Dashboard [Storyboard](https://docs.google.com/presentation/d/1dCde1OCeyl3IB1D-QORw7h_S3HN5e1TztJYZq71IYIo/edit?usp=sharing) & blueprint. 
 * [Dashboard](https://public.tableau.com/shared/H3Q25244H?:display_count=n&:origin=viz_share_link).
 
+## Presentation 
+* [Presentation Link](https://docs.google.com/presentation/d/12rbSZus9Fq7tq2jcaFw_y1p1-sv5cmX0l--q5vLJ2IA/edit?usp=sharing).
+
 ## Database ##
 
-Our collective database includes __. The database was created in PostgreSQL (PGadmin), and connected using AWS.
+Our collective database was created in PostgreSQL (PGadmin), and connected using AWS.
 * Preprocessed data is connected and imported into `Postgres` using `pgAdmin`.
 * The database is then connected to the Machine Learning model that has been created using `Jupyter Notebook`
-* The presentation will be displayed via ``, as well as, an interactive webpage hosted by `GitHub Pages` using `HTML`, `CSS` and `Javascript`
+* The presentation will be displayed via `Google Slides`, as well as, an interactive webpage hosted by `Tableau Public` using `HTML`, `CSS` and `Javascript`
 
-Additionally, the database meets all of the criteria requested for this unit's deliverables. This includes:
+Additionally, the database meets all of the criteria requested for this unit's deliverables. 
 
 
 ## Machine Learning Model ##
 
 In this machine learning analysis, we look to explore the relationship of vaccination rate and poplulation density by County in Colorado.
 
-**ML Goal:** Explore the relationship of COVID Vaccinations and Population Density’s Impact on Infection Rates
+**ML Goal:** Explore the relationship of COVID Vaccinations and Population Density’s Impact on Infection Rates.
 
 **Implications:**  We hope that by finding key variables that contribute to whether an area is likely or unlikely to experience an elevated COVID 19 infection rate by comparing  demographics to geographic data such as average percentage of completed vacctions and two week outbreaks that we can define infection trends ahead of time.
 
@@ -60,7 +66,7 @@ Decision Tree Drawbacks: Can become very complex and very deep, depending on how
 Random Forest Drawbacks: The main limitation of random forest is that a large number of trees can make the algorithm too slow and ineffective for real-time predictions. In general, these algorithms are fast to train, but quite slow to create predictions once they are trained.
 
 ### *Model Results* 
-* Accuracy: Our models showed different levels of accuracy.in our undersampling piece we recieved an accuracy of 78.5% and 81.25% in the Logistic Regression.  
+* Accuracy: Our models showed different levels of accuracy in our undersampling piece we recieved an accuracy of 78.5% and 81.25% in the Logistic Regression.  
 Our Supervised Machine Learning dataset contained binary outcomes, the accuracy of the predictions can be further analyzed by viewing the Confusion Matrices for the two models.
 
 * Precision: Precision, also known as positive predictive value (PPV), is a measure of how likely that a Predicted Positive is a True Positive. Precision is obtained by dividing the number of true positives (TP) by the number of all positives (i.e., the sum of true positives and false positives, or TP + FP). For our models below, both the Decision Tree and Random Forest achieved a Precision score of .67. This means that out of 100 predicted positives, 67 were True Positives.
