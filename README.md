@@ -27,7 +27,7 @@ Our project used machine learning to determine if a Colorado county was likely t
 * [Dashboard](https://public.tableau.com/shared/H3Q25244H?:display_count=n&:origin=viz_share_link).
 
 ## Presentation 
-* [Presentation Link](https://docs.google.com/presentation/d/1flTETI3e6vmfVjXl6Ik4qF_KJwdSl6qDVQkAI8v8ZCQ/edit?usp=sharing).
+* [Presentation Link](https://docs.google.com/presentation/d/12rbSZus9Fq7tq2jcaFw_y1p1-sv5cmX0l--q5vLJ2IA/edit?usp=sharing).
 
 ## Database ##
 
