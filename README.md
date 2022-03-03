@@ -3,7 +3,7 @@
 # Topic: COVID19 Analysis at the Colorado County Level
 
 ## Summary
-Our project used machine learning to determine if a Colorado county was likely to have a higher Covid-19 infection rate than the state average. Using the Decision Tree and Random Forest Algorithms, our model included features such as vaccination rates and social vulnarability index scores. While our models both obtained an encouraging accuracy score of 69%, we believe additional data points would be necessary to make a more robust model.
+Our project used machine learning to determine if a Colorado county was likely to have a higher Covid-19 infection rate than the state average. Using the Decision Tree and Random Forest Algorithms, our model included features such as vaccination rates and social vulnerability index scores. While our models both obtained an encouraging accuracy score of 69%, we believe additional data points would be necessary to make a more robust model.
 
 ## Communication Protocols
 * The Team will coordinate using a combination of Slack, Zoom Meetings during Monday and Wednesday classes, and additional meetings as-needed. We will use a Google Document for tracking meeting notes.
